@@ -9,7 +9,7 @@ import MomBpmnJsModeler from "./views/components/bpmn-js/lib/Modeler"
 import { is } from "./views/components/bpmn-js/lib/util/ModelUtil"
 import { isExpanded, isEventSubProcess } from "./views/components/bpmn-js/lib/util/DiUtil"
 import { isAny } from "./views/components/bpmn-js/lib/features/modeling/util/ModelingUtil"
-import { getChildLanes } from "./views/components/bpmn-js/lib/features/modeling/util/LaneUtil"
+import { getChildLanes } from "./views/components/bpmn-js/lib/features/modeling/util/LaneUtil";
 
 export {
   PageRender,
